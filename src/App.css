@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.reddd{
+  background-color: red;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black; /* Background color for the entire viewport */
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700vh; /* Adjust the height as per requirement */
+  background-color: black; /* Background color for the parent container */
+}
+
+.sticky-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52vh; 
+  background-color: #ef4444; /* Background color for the sticky container (red-600) */
+}
+
+.canvas {
+  width: 100%;
+  height: 100vh; /* Canvas height to fill the viewport height */
+}
